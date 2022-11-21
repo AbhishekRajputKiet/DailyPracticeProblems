@@ -1,1 +1,14 @@
 this is abhishek rajput
+
+1- create file -> code -> run
+2- if upload -> terminal -> git status (untracked file red color)
+3- git add .
+4- git commit -m "message"
+5- git push origin master
+
+
+
+6- new branch
+7- git branch nameofbranch
+8- git checkout nameofbranch
+9- git remote -v
