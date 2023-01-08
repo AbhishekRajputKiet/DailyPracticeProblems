@@ -1,20 +1,26 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-void reached(int str,int dest){
-    cout<<"Surse "<<str<<" Destination "<<dest<<endl;
-    if(str==dest){
-        cout<<"completed"<<endl;
-        return;
+void saydigit(int n, string arr[]) {
+
+    if(n ==0 ){
+        return ;
     }
-    str++;
-    reached(str,dest);
+    int digit = n%10;
+    n=n/10;
+
+    saydigit(n,arr);
+    cout<<arr[digit]<<" ";
+   
 }
 
 int main(){
-    int dest=10,str=1;
-    cout<<endl;
-    reached(str, dest);
-
+    string arr[10]={"Zero","One","Two","Three","Four","Five","Six","Seven","Eight","Nine"};
+    int n;
+    cout<<"Enter a numner: ";
+    cin>>n;
+    cout<<endl<<endl;
+    saydigit(n , arr);
+    cout<<endl<<endl;
     return 0;
 }
