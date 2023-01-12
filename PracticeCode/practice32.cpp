@@ -13,7 +13,7 @@ int partation(int *arr,int s,int e){
     swap(arr[PivotInd],arr[s]);
     int i=s,j=e;
     while(i<PivotInd && j>PivotInd){
-        while(arr[i]<pivot){
+        while(arr[i]<=pivot){
             i++;
         }
         while(arr[j]>pivot){

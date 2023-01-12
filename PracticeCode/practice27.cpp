@@ -12,6 +12,5 @@ int main(){
     string name="abhishek";
     ReverseString(name,0,name.length()-1);
     cout<<name<<endl;
-
     return 0;
 }
