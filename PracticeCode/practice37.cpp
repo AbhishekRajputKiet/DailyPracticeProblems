@@ -10,13 +10,13 @@ struct Node{
         right=NULL;
     }
 };
-void postorder(struct Node * root){
+void inorder(struct Node * root){
     if(root == NULL){
         return ;
     }
-    postorder(root->left);
+    inorder(root->left);
     
-    postorder(root->right);
+    inorder(root->right);
     cout<<root->data<<" ";
     
 }
@@ -34,7 +34,7 @@ int main(){
     root->left->right= new Node(5);
     root->right->left=new Node(6);
     root->right->right=new Node(7);
-    cout<<"Postorder is: ";
-    postorder(root);
+    cout<<"Inorder is: ";
+    inorder(root);
     return 0;
 }
