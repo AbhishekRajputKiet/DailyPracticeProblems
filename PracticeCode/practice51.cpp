@@ -61,10 +61,7 @@ int main(){
     root->left->left=new Node(4);
     root->left->right=new Node(5);
     root->right->left=new Node(6);
-    root->right->right=new Node(7);
-    
+    root->right->right=new Node(7);   
     cout<<"Distance b/w roots is : "<<dis_root(root,n1,n2);
-
-
     return 0;
 }
