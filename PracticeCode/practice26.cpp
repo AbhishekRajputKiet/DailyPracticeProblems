@@ -12,8 +12,6 @@ bool BinarySearch(int *arr,int s,int e,int key){
     else
         return BinarySearch(arr,s,mid-1,key);
 }
-
-
 int main(){
     int arr[6]={1,2,5,13,16,33};
     int size=6,s=0,e=5;
