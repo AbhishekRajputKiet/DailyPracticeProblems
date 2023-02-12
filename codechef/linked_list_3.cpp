@@ -42,6 +42,6 @@ int main(){
     print(head);
     insertAttail(tail,18);
     print(head);   
-    cout<<search(head,11)<<endl;
+    cout<<search(head,118)<<endl;
     return 0;
 }
