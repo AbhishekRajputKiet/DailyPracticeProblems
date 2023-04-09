@@ -9,6 +9,5 @@ void revers(string(s)){
 }
 int main(){
     revers("Abhishek");
-
     return 0;
 }
