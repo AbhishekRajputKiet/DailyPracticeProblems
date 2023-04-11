@@ -23,7 +23,6 @@ void Merge(int arr[],int l,int m,int r){
             k++;
             j++;
         }    
-
     }
     while(i<n1){
         arr[k]=a[i];
@@ -43,14 +42,12 @@ void Mergesort(int arr[],int l,int r){
         Mergesort(arr,m+1,r);
         Merge(arr,l,m,r);
     }
-
 }
 int main(){
     int arr[]={5,4,3,2,1};
     Mergesort(arr,0,4);
     for(int i=0;i<5;i++)
         cout<<arr[i]<<" ";
-    cout<<endl;
-    
+    cout<<endl;   
     return 0;
 }
