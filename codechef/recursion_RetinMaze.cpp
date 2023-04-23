@@ -38,6 +38,7 @@ int main(){
         for(int j=0;j<n;j++)
             solarr[i][j]=0;
     }
+    
     if(ratinMaze(arr,0,0,n,solarr)){
         for(int i=0;i<n;i++){
             for(int j=0;j<n;j++){
