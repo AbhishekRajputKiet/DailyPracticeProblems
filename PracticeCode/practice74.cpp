@@ -20,7 +20,6 @@ int main(){
         int x,y;
         cin>>x>>y;
         v.push_back({x,y});
-
     }
     printv(v);
     return 0;
