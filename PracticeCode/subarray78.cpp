@@ -1,23 +1,22 @@
-# include<bits/stdc++.h>
-using namespace std;
-int main(){
+# include <bits/stdc++.h>
+using namespace std ;
 
+int main(){
     int n;
     cin>>n;
     int arr[n];
     for(int i=0;i<n;i++)
         cin>>arr[i];
-    // first point
+    int maxi = INT_MIN;
     for(int i=0;i<n;i++){
-        // second point
         for(int j=i;j<n;j++){
-            // print between first to second point 
+            int sum=0;
             for(int k=i;k<=j;k++){
-                cout<<arr[k]<<" ";
+                sum +=arr[k];
             }
-            cout<<endl;
+            maxi=max(sum,maxi);
         }
-        
     }
+    cout<<maxi<<endl;
     return 0;
 }
