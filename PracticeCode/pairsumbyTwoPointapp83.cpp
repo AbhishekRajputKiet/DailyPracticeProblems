@@ -24,5 +24,4 @@ int main(){
     }
     cout<<Ispairi(arr,n,sum)<<endl;
     return 0;
-    
 }
