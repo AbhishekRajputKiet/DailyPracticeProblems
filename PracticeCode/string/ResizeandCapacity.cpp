@@ -13,8 +13,9 @@ int main(){
     str.shrink_to_fit();
     cout<<"After rsrink_to_fit capacity of string : "<<str.capacity()<<endl;
     cout<<"After srink_to_fit length of string is : "<<str.length()<<endl;
-
+    
     return 0;
+
 }
 // each function contain O(n) time complexity
 
