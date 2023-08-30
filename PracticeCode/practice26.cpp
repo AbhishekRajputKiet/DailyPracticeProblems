@@ -22,5 +22,6 @@ int main(){
         cout<<"Element is present.";
     else
         cout<<"Element is not present.";
+    cout<<endl;
     return 0;
 }
