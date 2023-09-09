@@ -16,6 +16,5 @@ int main()
 {
     string s1="aab",s2="aaaab";
     cout<<substring(s1,s2)<<endl;
-
     return 0;
 }
