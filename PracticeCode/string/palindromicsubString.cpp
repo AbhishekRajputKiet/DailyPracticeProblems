@@ -17,7 +17,7 @@ int countPalindromicSubString(string s){
     return count;
 }
 int main(){
-    string s="acbbd";
+    string s="abbabdbd";
     cout<<countPalindromicSubString(s)<<endl;
     return 0;
 }
