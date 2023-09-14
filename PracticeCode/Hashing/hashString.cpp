@@ -18,6 +18,5 @@ int main(){
         cout<<hash[c-'a']<<endl;
     }
 
-
     return 0;
 }
