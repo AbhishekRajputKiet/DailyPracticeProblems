@@ -5,10 +5,6 @@ class Employee{
     public:
         string name="Abhishek";
         long long roll_number = 2100290120007;
-    
-
-    
-
 };
 int main(){
     Employee ob;
