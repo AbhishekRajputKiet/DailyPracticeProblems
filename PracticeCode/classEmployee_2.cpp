@@ -16,6 +16,8 @@ class employee{
         return tax;
     }
 };
+
+
 int main(){
     employee ob;
     double salary;
